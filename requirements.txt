@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+scipy
+xgboost
+mlxtend
+matplotlib
+seaborn
+basemap
+category_encoders
