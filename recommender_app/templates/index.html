@@ -61,6 +61,16 @@
                 <!-- Gender -->
                 <div class="row">
                     <div class="col-md-4">
+                    <label for="device_id">Device Id:</label>
+                    </div>
+                    <div class="col-md-8">
+                    <span id="device_id"></span>
+                    </div>
+                </div>
+
+                <!-- Gender -->
+                <div class="row">
+                    <div class="col-md-4">
                     <label for="gender">Gender:</label>
                     </div>
                     <div class="col-md-8">
@@ -146,6 +156,7 @@
 
                 document.getElementById('age').innerHTML = data['age_group'];
                 document.getElementById('gender').innerHTML = data['gender'];
+                document.getElementById('device_id').innerHTML = data['device_id'];
 
                 document.getElementById('campaigns').innerHTML = "";
 
