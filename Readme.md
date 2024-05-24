@@ -3,14 +3,14 @@
 
 This is a submission for capstone project where we have a telecom data set comprising of events, location & app meta data. Based on this data set we need to create machine learning model to predict age and gender of user. We will use this prediction to to recommend different ad campaign to the user.
 
-We have two scenarions using which we have created our model for this prediction:
+We have two scenarios using which we have created our model for this prediction:
 1. Scenario 1: In this case we will use the event data of users as well as their location
 2. Scenario 2: In this case we will only use the app, metadata etc.
 
 
 ## How to run
 
-1. Create a folder named data and download these datasets to the given folder:
+1. Create a folder named `data` and download these datasets to the given folder:
     - https://uoacapstone.s3.amazonaws.com/app_events.csv
     - https://uoacapstone.s3.amazonaws.com/train_event_data.csv
     - https://uoacapstone.s3.amazonaws.com/app_events_meta_data.csv
@@ -25,5 +25,5 @@ We have two scenarions using which we have created our model for this prediction
 
 4. Now run the flask application using docker. 
     - [Install Docker](https://docs.docker.com/engine/install/)
-    - `docker build <image_name> .`
-    - `docker run [PORT]:[PORT] <image_name>`
+    - `docker build -t <image_name> .`
+    - `docker run -p [PORT]:[PORT] <image_name>`
